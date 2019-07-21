@@ -1,0 +1,12 @@
+mqtt:
+    host: home.beine.hassio
+    port: 1883
+    user: windlogger
+    password: secret
+    topic: home/devices/adafruit
+    qos: 1
+    retain: true
+adafruit:
+    sensor: 22
+    gpio: 24
+    topic: aussen
